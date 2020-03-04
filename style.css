@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+  background-image: url("images/red-white.jpg");
+  background-size: cover;
+  background-color: #011F3F;
+
+}
+
+#level-title {
+  /*font-family: 'Bungee', cursive;*/
+  font-family: 'Bungee Shade', cursive;
+  /*font-family: 'VT323', monospace;
+  /*font-family: 'Press Start 2P', cursive;*/
+  font-size: 3rem;
+  margin:  2% auto 0% auto;
+  color: #FEF2BF;
+}
+.whenGameOver{
+  font-size: 0.5rem;
+}
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 0;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  color: red;
+  opacity: 0.7;
+
+}
+
+.red {
+  background-color: #ce0f3d;
+}
+
+.green {
+  background-color: #007944;
+}
+
+.blue {
+  background-color: #550a46;
+}
+
+.yellow {
+  background-color: #ffcc00;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
